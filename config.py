@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6838476973:AAGzY7BPTqFFakJyXAniDWSSPDo2nj8XSMU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7520939639:AAG83HQAQrDSUYkg7gmxING8NYLTnl-n9nE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23004940"))
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002164859181"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(7258325900)
-ADMINS.append(7258325900)
+ADMINS.append(1897636348)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
